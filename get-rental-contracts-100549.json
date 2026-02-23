@@ -1,0 +1,146 @@
+{
+  "rentalContract": {
+    "rentalContractId": 100549,
+    "status": 4,
+    "createdAt": "2024-07-16T14:55:00+02:00",
+    "name": "NNM.TEST.20260220-100549",
+    "description": "",
+    "internalNote": "",
+    "currency": "EUR",
+    "customersReference": "",
+    "customersReferenceNumber": "NNM/20260220-100549",
+    "discountPercentage": null,
+    "rentalType": null,
+    "invoiceFrequency": 3,
+    "createAccountAdjustmentPlan": false,
+    "deactivateExpirationDateExtending": false,
+    "baseDate": "2024-07-01",
+    "isAutomaticallyIssued": false,
+    "shippingAddressAttention": "",
+    "shippingAddressPhone": "",
+    "shippingAddressEmail": "",
+    "invoiceAddressAttention": "",
+    "defaultRateChangeType": null,
+    "defaultCheckOutLocation": {
+      "locationId": 100000,
+      "shortName": "VAT",
+      "locationLink": 100000
+    },
+    "defaultCheckInLocation": {
+      "locationId": 100000,
+      "shortName": "VAT",
+      "locationLink": 100000
+    },
+    "advanceInvoicing": {
+      "isInvoicedInAdvance": false,
+      "baseDateAdvanceDays": 0
+    },
+    "period": {
+      "effectiveDate": "2024-04-01",
+      "expirationDate": "2026-03-08",
+      "registrationDate": "2024-07-16",
+      "terminationDate": null,
+      "closingDate": null
+    },
+    "customer": {
+      "customerId": 102943,
+      "name": "NNM Global Enterprises",
+      "firstName": "",
+      "customerLink": "https://api.rambase.net/sales/customers/102943?$db=TEM-NO&$format=json"
+    },
+    "invoiceAddress": {
+      "addressId": 1,
+      "name": "NNM Global Enterprises",
+      "firstName": "",
+      "addressLine1": "Margaretenstrasse 98",
+      "addressLine2": "INVOICE",
+      "postalCode": "A-1050",
+      "city": "Wien",
+      "region": "",
+      "countryCode": "AT",
+      "country": "Austria",
+      "addressLink": "https://api.rambase.net/sales/customers/102943/addresses/1?$db=TEM-NO&$format=json"
+    },
+    "shippingAddress": {
+      "addressId": 2,
+      "name": "Henley Ltd.",
+      "firstName": "Collett",
+      "addressLine1": "Park 34",
+      "addressLine2": "",
+      "postalCode": "OX11 7WB",
+      "city": "Oxford",
+      "region": "",
+      "countryCode": "GB",
+      "country": "Great Britain",
+      "externalReference": "",
+      "addressLink": "https://api.rambase.net/sales/customers/102943/addresses/2?$db=TEM-NO&$format=json"
+    },
+    "responsible": {
+      "userId": 11921,
+      "name": "Generalczyk",
+      "firstName": "Paweł",
+      "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+    },
+    "assignee": {
+      "userId": 11921,
+      "name": "Generalczyk",
+      "firstName": "Paweł",
+      "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+    },
+    "accountManager": {
+      "userId": 11921,
+      "name": "Generalczyk",
+      "firstName": "Paweł",
+      "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+    },
+    "payment": {
+      "paymentTerms": "NET,30"
+    },
+    "vATDetails": {
+      "vATHandling": ""
+    },
+    "location": {
+      "locationId": 100000,
+      "shortName": "VAT",
+      "address": {
+        "countryCode": "NO"
+      },
+      "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+    },
+    "shipment": {
+      "deliveryTerms": "CIF",
+      "deliveryTermPlace": "Raglamyr",
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "name": "TNT EXPRESS DOCS",
+        "carrier": {
+          "carrierId": 1002,
+          "name": "TNT",
+          "carrierLink": "https://api.rambase.net/logistics/carriers/1002?$db=TEM-NO&$format=json"
+        },
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      }
+    },
+    "totals": {
+      "currency": "EUR",
+      "totalAmount": 37216.97,
+      "discountAmount": 0.0,
+      "totalNetAmount": 37216.97,
+      "accruedRevenue": 7444.21,
+      "invoicedAmount": 0.0,
+      "forecastedRevenue": 29772.75,
+      "earnedRevenue": 7444.21,
+      "countOfQuotes": 0
+    },
+    "totalsConverted": {
+      "currency": "EUR",
+      "totalAmount": 37216.97,
+      "discountAmount": 0.0,
+      "totalNetAmount": 37216.97,
+      "accruedRevenue": 7444.21,
+      "invoicedAmount": 0.0,
+      "forecastedRevenue": 29772.75,
+      "earnedRevenue": 7444.21
+    }
+  }
+}

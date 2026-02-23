@@ -1,0 +1,212 @@
+{
+  "invoicePeriods": [
+    {
+      "invoicePeriodId": 7,
+      "createdAt": "2026-02-20T14:07:00+01:00",
+      "status": "4",
+      "period": {
+        "startDate": "2026-02-20",
+        "endDate": "2026-02-28"
+      },
+      "plannedInvoiceDate": "2026-03-01",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "totalDays": 78,
+      "totalOffRentDays": 0,
+      "totalBillingEntries": 5,
+      "latestBillingEntries": [
+        {
+          "billingEntryId": 1,
+          "status": "4",
+          "period": {
+            "startDate": "2026-02-23",
+            "endDate": "2026-02-28"
+          },
+          "totals": {
+            "totalNetAmount": 3433.27,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 1,
+          "status": "4",
+          "period": {
+            "startDate": "2026-02-20",
+            "endDate": "2026-02-28"
+          },
+          "totals": {
+            "totalNetAmount": 4500.0,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 1,
+          "status": "4",
+          "period": {
+            "startDate": "2026-02-20",
+            "endDate": "2026-02-28"
+          },
+          "totals": {
+            "totalNetAmount": 5382.0,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 1,
+          "status": "4",
+          "period": {
+            "startDate": "2026-02-20",
+            "endDate": "2026-02-28"
+          },
+          "totals": {
+            "totalNetAmount": 1080.0,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 1,
+          "status": "4",
+          "period": {
+            "startDate": "2026-02-20",
+            "endDate": "2026-02-28"
+          },
+          "totals": {
+            "totalNetAmount": 4500.0,
+            "invoicedAmount": 0.0
+          }
+        }
+      ],
+      "totalSalesInvoices": 0,
+      "latestSalesInvoices": [],
+      "totalSalesCreditNotes": 0,
+      "latestSalesCreditNotes": [],
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 18895.2712,
+        "discountAmount": 0.0,
+        "totalNetAmount": 18895.2712,
+        "invoicedAmount": 0.0,
+        "invoiceableAmount": 0.0,
+        "proformaAmount": 0.0,
+        "pendingPaymentAmount": 0.0,
+        "paidAmount": 0.0,
+        "creditedAmount": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 212645.6639,
+        "discountAmount": 0.0,
+        "totalNetAmount": 212645.6639,
+        "invoicedAmount": 0.0,
+        "invoiceableAmount": 0.0
+      }
+    },
+    {
+      "invoicePeriodId": 8,
+      "createdAt": "2026-02-20T14:07:00+01:00",
+      "status": "3",
+      "period": {
+        "startDate": "2026-03-01",
+        "endDate": "2026-03-08"
+      },
+      "plannedInvoiceDate": "2026-03-09",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "totalDays": 72,
+      "totalOffRentDays": 0,
+      "totalBillingEntries": 5,
+      "latestBillingEntries": [
+        {
+          "billingEntryId": 2,
+          "status": "3",
+          "period": {
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-08"
+          },
+          "totals": {
+            "totalNetAmount": 4577.69,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 2,
+          "status": "3",
+          "period": {
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-08"
+          },
+          "totals": {
+            "totalNetAmount": 4000.0,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 2,
+          "status": "3",
+          "period": {
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-08"
+          },
+          "totals": {
+            "totalNetAmount": 4784.0,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 2,
+          "status": "3",
+          "period": {
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-08"
+          },
+          "totals": {
+            "totalNetAmount": 960.0,
+            "invoicedAmount": 0.0
+          }
+        },
+        {
+          "billingEntryId": 2,
+          "status": "3",
+          "period": {
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-08"
+          },
+          "totals": {
+            "totalNetAmount": 4000.0,
+            "invoicedAmount": 0.0
+          }
+        }
+      ],
+      "totalSalesInvoices": 0,
+      "latestSalesInvoices": [],
+      "totalSalesCreditNotes": 0,
+      "latestSalesCreditNotes": [],
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 18321.6949,
+        "discountAmount": 0.0,
+        "totalNetAmount": 18321.6949,
+        "invoicedAmount": 0.0,
+        "invoiceableAmount": 0.0,
+        "proformaAmount": 0.0,
+        "pendingPaymentAmount": 0.0,
+        "paidAmount": 0.0,
+        "creditedAmount": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 206192.3546,
+        "discountAmount": 0.0,
+        "totalNetAmount": 206192.3546,
+        "invoicedAmount": 0.0,
+        "invoiceableAmount": 0.0
+      }
+    }
+  ],
+  "paging": {
+    "position": 1,
+    "page": 1,
+    "firstPage": null,
+    "previousPage": null,
+    "nextPage": null,
+    "lastPage": null
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "rentalContractItems": [
+    {
+      "rentalContractItemId": 12,
+      "lineNumber": 1,
+      "createdAt": "2026-02-20T14:07:00+01:00",
+      "rentalContractVersion": {
+        "rentalContractVersionId": 12,
+        "version": 0,
+        "revision": 1,
+        "createdBy": {
+          "userId": 11921,
+          "name": "Generalczyk",
+          "firstName": "Paweł",
+          "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+        },
+        "rentalContractVersionLink": "https://api.rambase.net/rental/contracts/100549/versions/12?$db=TEM-NO&$format=json"
+      },
+      "rentalContractQuote": {
+        "rentalContractQuoteId": null,
+        "name": ""
+      },
+      "isActive": false,
+      "status": "O3",
+      "type": 2,
+      "note": "",
+      "internalNote": "",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "rateChangeType": null,
+      "initialRentalContractItem": {
+        "rentalContractItemId": 12
+      },
+      "product": {
+        "productId": 253844,
+        "name": "Hürlimann XB Stage IV",
+        "type": "P",
+        "productLink": "https://api.rambase.net/product/products/253844?$db=TEM-NO&$format=json"
+      },
+      "productDescription": "Modern, technological and versatile",
+      "quantity": 1,
+      "remainingQuantity": 1,
+      "discountPercent": 0.0,
+      "recurringRate": {
+        "recurringRateId": 103207,
+        "status": 4,
+        "currency": "EUR",
+        "rateInterval": 1,
+        "type": 2,
+        "numberOfRateSteps": 1,
+        "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103207?$db=TEM-NO&$format=json"
+      },
+      "currentRateStep": {
+        "currency": "EUR",
+        "rate": 572.21186
+      },
+      "period": {
+        "effectiveDate": "2026-02-23",
+        "expirationDate": "2026-03-08",
+        "terminationDate": null
+      },
+      "onRentDays": 14,
+      "averageRatePerDay": 572.211857143,
+      "checkOut": {
+        "expectedDate": "2026-02-23",
+        "checkOutStatus": 0,
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "checkIn": {
+        "expectedDate": "2026-03-08",
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "shippingAddress": {
+        "addressId": 2,
+        "addressLink": null
+      },
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      },
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 8010.966,
+        "discountAmount": 0.0,
+        "totalNetAmount": 8010.966,
+        "accruedRevenue": null,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 8010.9666,
+        "earnedRevenue": null,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 90155.412,
+        "accruedRevenue": null,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 90155.4122,
+        "deferredRevenue": 0.0
+      },
+      "seller": {
+        "employeeId": 11921,
+        "firstName": "Paweł",
+        "lastName": "Generalczyk",
+        "employeeLink": "https://api.rambase.net/human-resources/employees/11921?$db=TEM-NO&$format=json"
+      },
+      "calendarSummary": {
+        "quantity": {
+          "min": 1,
+          "max": 1,
+          "current": 1,
+          "numberOfChanges": 1
+        },
+        "recurringRate": {
+          "numberOfChanges": 1,
+          "currentRecurringRate": {
+            "recurringRateId": 103207,
+            "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103207?$db=TEM-NO&$format=json"
+          }
+        },
+        "discountPercentage": {
+          "min": 0.0,
+          "max": 0.0,
+          "current": 0.0,
+          "numberOfChanges": 1
+        },
+        "lastInvoicedDate": null,
+        "invoicedDays": 0
+      }
+    },
+    {
+      "rentalContractItemId": 17,
+      "lineNumber": 1,
+      "createdAt": "2026-02-23T00:26:00+01:00",
+      "rentalContractVersion": {
+        "rentalContractVersionId": 13,
+        "version": 0,
+        "revision": 2,
+        "createdBy": {
+          "userId": 1130,
+          "name": "Batch-server",
+          "firstName": "I/O Server",
+          "userLink": "https://api.rambase.net/system/users/1130?$db=TEM-NO&$format=json"
+        },
+        "rentalContractVersionLink": "https://api.rambase.net/rental/contracts/100549/versions/13?$db=TEM-NO&$format=json"
+      },
+      "rentalContractQuote": {
+        "rentalContractQuoteId": null,
+        "name": ""
+      },
+      "isActive": true,
+      "status": "O6",
+      "type": 2,
+      "note": "",
+      "internalNote": "",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "rateChangeType": null,
+      "initialRentalContractItem": {
+        "rentalContractItemId": 12
+      },
+      "product": {
+        "productId": 253844,
+        "name": "Hürlimann XB Stage IV",
+        "type": "P",
+        "productLink": "https://api.rambase.net/product/products/253844?$db=TEM-NO&$format=json"
+      },
+      "productDescription": "Modern, technological and versatile",
+      "quantity": 1,
+      "remainingQuantity": 1,
+      "discountPercent": 0.0,
+      "recurringRate": {
+        "recurringRateId": 103207,
+        "status": 4,
+        "currency": "EUR",
+        "rateInterval": 1,
+        "type": 2,
+        "numberOfRateSteps": 1,
+        "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103207?$db=TEM-NO&$format=json"
+      },
+      "currentRateStep": {
+        "currency": "EUR",
+        "rate": 572.21186
+      },
+      "period": {
+        "effectiveDate": "2026-02-23",
+        "expirationDate": "2026-03-08",
+        "terminationDate": null
+      },
+      "onRentDays": 14,
+      "averageRatePerDay": 572.211857143,
+      "checkOut": {
+        "expectedDate": "2026-02-23",
+        "checkOutStatus": 0,
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "checkIn": {
+        "expectedDate": "2026-03-08",
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "shippingAddress": {
+        "addressId": 2,
+        "addressLink": null
+      },
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      },
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 8010.966,
+        "discountAmount": 0.0,
+        "totalNetAmount": 8010.966,
+        "accruedRevenue": 572.2119,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 7438.7547,
+        "earnedRevenue": null,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 90155.412,
+        "accruedRevenue": 6439.6723,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 83715.7399,
+        "deferredRevenue": 0.0
+      },
+      "seller": {
+        "employeeId": 11921,
+        "firstName": "Paweł",
+        "lastName": "Generalczyk",
+        "employeeLink": "https://api.rambase.net/human-resources/employees/11921?$db=TEM-NO&$format=json"
+      },
+      "calendarSummary": {
+        "quantity": {
+          "min": 1,
+          "max": 1,
+          "current": 1,
+          "numberOfChanges": 1
+        },
+        "recurringRate": {
+          "numberOfChanges": 1,
+          "currentRecurringRate": {
+            "recurringRateId": 103207,
+            "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103207?$db=TEM-NO&$format=json"
+          }
+        },
+        "discountPercentage": {
+          "min": 0.0,
+          "max": 0.0,
+          "current": 0.0,
+          "numberOfChanges": 1
+        },
+        "lastInvoicedDate": null,
+        "invoicedDays": 0
+      }
+    },
+    {
+      "rentalContractItemId": 13,
+      "lineNumber": 2,
+      "createdAt": "2026-02-20T14:08:00+01:00",
+      "rentalContractVersion": {
+        "rentalContractVersionId": 12,
+        "version": 0,
+        "revision": 1,
+        "createdBy": {
+          "userId": 11921,
+          "name": "Generalczyk",
+          "firstName": "Paweł",
+          "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+        },
+        "rentalContractVersionLink": "https://api.rambase.net/rental/contracts/100549/versions/12?$db=TEM-NO&$format=json"
+      },
+      "rentalContractQuote": {
+        "rentalContractQuoteId": null,
+        "name": ""
+      },
+      "isActive": true,
+      "status": "O6",
+      "type": 2,
+      "note": "",
+      "internalNote": "",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "rateChangeType": null,
+      "initialRentalContractItem": {
+        "rentalContractItemId": 13
+      },
+      "product": {
+        "productId": 253846,
+        "name": "McCormick X6.4 P6-Drive Stage V",
+        "type": "P",
+        "productLink": "https://api.rambase.net/product/products/253846?$db=TEM-NO&$format=json"
+      },
+      "productDescription": "Versatilità, prestazioni e comfort in unico trattore",
+      "quantity": 1,
+      "remainingQuantity": 1,
+      "discountPercent": null,
+      "recurringRate": {
+        "recurringRateId": 102929,
+        "status": 4,
+        "currency": "EUR",
+        "rateInterval": 1,
+        "type": 1,
+        "numberOfRateSteps": 1,
+        "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/102929?$db=TEM-NO&$format=json"
+      },
+      "currentRateStep": {
+        "currency": "EUR",
+        "rate": 500.0
+      },
+      "period": {
+        "effectiveDate": "2026-02-20",
+        "expirationDate": "2026-03-08",
+        "terminationDate": null
+      },
+      "onRentDays": 17,
+      "averageRatePerDay": 500.0,
+      "checkOut": {
+        "expectedDate": "2026-02-20",
+        "checkOutStatus": 0,
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "checkIn": {
+        "expectedDate": "2026-03-08",
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "shippingAddress": {
+        "addressId": 2,
+        "addressLink": null
+      },
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      },
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 8500.0,
+        "discountAmount": 0.0,
+        "totalNetAmount": 8500.0,
+        "accruedRevenue": 2000.0,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 6500.0,
+        "earnedRevenue": null,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 95658.5002,
+        "accruedRevenue": 22507.5,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 73151.0,
+        "deferredRevenue": 0.0
+      },
+      "seller": {
+        "employeeId": 11921,
+        "firstName": "Paweł",
+        "lastName": "Generalczyk",
+        "employeeLink": "https://api.rambase.net/human-resources/employees/11921?$db=TEM-NO&$format=json"
+      },
+      "calendarSummary": {
+        "quantity": {
+          "min": 1,
+          "max": 1,
+          "current": 1,
+          "numberOfChanges": 1
+        },
+        "recurringRate": {
+          "numberOfChanges": 1,
+          "currentRecurringRate": {
+            "recurringRateId": 102929,
+            "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/102929?$db=TEM-NO&$format=json"
+          }
+        },
+        "discountPercentage": {
+          "min": 0.0,
+          "max": 0.0,
+          "current": null,
+          "numberOfChanges": 1
+        },
+        "lastInvoicedDate": null,
+        "invoicedDays": 0
+      }
+    },
+    {
+      "rentalContractItemId": 14,
+      "lineNumber": 3,
+      "createdAt": "2026-02-20T14:09:00+01:00",
+      "rentalContractVersion": {
+        "rentalContractVersionId": 12,
+        "version": 0,
+        "revision": 1,
+        "createdBy": {
+          "userId": 11921,
+          "name": "Generalczyk",
+          "firstName": "Paweł",
+          "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+        },
+        "rentalContractVersionLink": "https://api.rambase.net/rental/contracts/100549/versions/12?$db=TEM-NO&$format=json"
+      },
+      "rentalContractQuote": {
+        "rentalContractQuoteId": null,
+        "name": ""
+      },
+      "isActive": true,
+      "status": "O6",
+      "type": 2,
+      "note": "",
+      "internalNote": "",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "rateChangeType": null,
+      "initialRentalContractItem": {
+        "rentalContractItemId": 14
+      },
+      "product": {
+        "productId": 254273,
+        "name": "John Deere 2038R",
+        "type": "P",
+        "productLink": "https://api.rambase.net/product/products/254273?$db=TEM-NO&$format=json"
+      },
+      "productDescription": "Equipped with versatile features the 2038R Compact Utility Tractor is designed to meet the diverse needs of municiple and landscape operators in all seasons",
+      "quantity": 2,
+      "remainingQuantity": 2,
+      "discountPercent": null,
+      "recurringRate": {
+        "recurringRateId": 103107,
+        "status": 4,
+        "currency": "EUR",
+        "rateInterval": 1,
+        "type": 1,
+        "numberOfRateSteps": 1,
+        "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103107?$db=TEM-NO&$format=json"
+      },
+      "currentRateStep": {
+        "currency": "EUR",
+        "rate": 299.0
+      },
+      "period": {
+        "effectiveDate": "2026-02-20",
+        "expirationDate": "2026-03-08",
+        "terminationDate": null
+      },
+      "onRentDays": 17,
+      "averageRatePerDay": 598.0,
+      "checkOut": {
+        "expectedDate": "2026-02-20",
+        "checkOutStatus": 0,
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "checkIn": {
+        "expectedDate": "2026-03-08",
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "shippingAddress": {
+        "addressId": 2,
+        "addressLink": null
+      },
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      },
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 10166.0,
+        "discountAmount": 0.0,
+        "totalNetAmount": 10166.0,
+        "accruedRevenue": 2392.0,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 7774.0,
+        "earnedRevenue": null,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 114407.5662,
+        "accruedRevenue": 26918.97,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 87488.596,
+        "deferredRevenue": 0.0
+      },
+      "seller": {
+        "employeeId": 11921,
+        "firstName": "Paweł",
+        "lastName": "Generalczyk",
+        "employeeLink": "https://api.rambase.net/human-resources/employees/11921?$db=TEM-NO&$format=json"
+      },
+      "calendarSummary": {
+        "quantity": {
+          "min": 2,
+          "max": 2,
+          "current": 2,
+          "numberOfChanges": 1
+        },
+        "recurringRate": {
+          "numberOfChanges": 1,
+          "currentRecurringRate": {
+            "recurringRateId": 103107,
+            "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103107?$db=TEM-NO&$format=json"
+          }
+        },
+        "discountPercentage": {
+          "min": 0.0,
+          "max": 0.0,
+          "current": null,
+          "numberOfChanges": 1
+        },
+        "lastInvoicedDate": null,
+        "invoicedDays": 0
+      }
+    },
+    {
+      "rentalContractItemId": 15,
+      "lineNumber": 4,
+      "createdAt": "2026-02-20T14:10:00+01:00",
+      "rentalContractVersion": {
+        "rentalContractVersionId": 12,
+        "version": 0,
+        "revision": 1,
+        "createdBy": {
+          "userId": 11921,
+          "name": "Generalczyk",
+          "firstName": "Paweł",
+          "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+        },
+        "rentalContractVersionLink": "https://api.rambase.net/rental/contracts/100549/versions/12?$db=TEM-NO&$format=json"
+      },
+      "rentalContractQuote": {
+        "rentalContractQuoteId": null,
+        "name": ""
+      },
+      "isActive": true,
+      "status": "O6",
+      "type": 2,
+      "note": "",
+      "internalNote": "",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "rateChangeType": null,
+      "initialRentalContractItem": {
+        "rentalContractItemId": 15
+      },
+      "product": {
+        "productId": 253710,
+        "name": "Lambretta V50",
+        "type": "P",
+        "productLink": "https://api.rambase.net/product/products/253710?$db=TEM-NO&$format=json"
+      },
+      "productDescription": "This construction not only enables Lambretta owners to reach their engine easily, but also avoids unnecessary added weight",
+      "quantity": 4,
+      "remainingQuantity": 4,
+      "discountPercent": null,
+      "recurringRate": {
+        "recurringRateId": 102732,
+        "status": 4,
+        "currency": "EUR",
+        "rateInterval": 1,
+        "type": 1,
+        "numberOfRateSteps": 1,
+        "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/102732?$db=TEM-NO&$format=json"
+      },
+      "currentRateStep": {
+        "currency": "EUR",
+        "rate": 30.0
+      },
+      "period": {
+        "effectiveDate": "2026-02-20",
+        "expirationDate": "2026-03-08",
+        "terminationDate": null
+      },
+      "onRentDays": 17,
+      "averageRatePerDay": 120.0,
+      "checkOut": {
+        "expectedDate": "2026-02-20",
+        "checkOutStatus": 0,
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "checkIn": {
+        "expectedDate": "2026-03-08",
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "shippingAddress": {
+        "addressId": 2,
+        "addressLink": null
+      },
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      },
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 2040.0,
+        "discountAmount": 0.0,
+        "totalNetAmount": 2040.0,
+        "accruedRevenue": 480.0,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 1560.0,
+        "earnedRevenue": null,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 22958.04,
+        "accruedRevenue": 5401.8,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 17556.24,
+        "deferredRevenue": 0.0
+      },
+      "seller": {
+        "employeeId": 11921,
+        "firstName": "Paweł",
+        "lastName": "Generalczyk",
+        "employeeLink": "https://api.rambase.net/human-resources/employees/11921?$db=TEM-NO&$format=json"
+      },
+      "calendarSummary": {
+        "quantity": {
+          "min": 4,
+          "max": 4,
+          "current": 4,
+          "numberOfChanges": 1
+        },
+        "recurringRate": {
+          "numberOfChanges": 1,
+          "currentRecurringRate": {
+            "recurringRateId": 102732,
+            "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/102732?$db=TEM-NO&$format=json"
+          }
+        },
+        "discountPercentage": {
+          "min": 0.0,
+          "max": 0.0,
+          "current": null,
+          "numberOfChanges": 1
+        },
+        "lastInvoicedDate": null,
+        "invoicedDays": 0
+      }
+    },
+    {
+      "rentalContractItemId": 16,
+      "lineNumber": 5,
+      "createdAt": "2026-02-20T15:07:00+01:00",
+      "rentalContractVersion": {
+        "rentalContractVersionId": 12,
+        "version": 0,
+        "revision": 1,
+        "createdBy": {
+          "userId": 11921,
+          "name": "Generalczyk",
+          "firstName": "Paweł",
+          "userLink": "https://api.rambase.net/system/users/11921?$db=TEM-NO&$format=json"
+        },
+        "rentalContractVersionLink": "https://api.rambase.net/rental/contracts/100549/versions/12?$db=TEM-NO&$format=json"
+      },
+      "rentalContractQuote": {
+        "rentalContractQuoteId": null,
+        "name": ""
+      },
+      "isActive": true,
+      "status": "O6",
+      "type": 2,
+      "note": "",
+      "internalNote": "",
+      "customersReferenceNumber": "NNM/20260220-100549",
+      "rateChangeType": null,
+      "initialRentalContractItem": {
+        "rentalContractItemId": 16
+      },
+      "product": {
+        "productId": 253714,
+        "name": "Lamborghini Trattori Sprint 50",
+        "type": "P",
+        "productLink": "https://api.rambase.net/product/products/253714?$db=TEM-NO&$format=json"
+      },
+      "productDescription": "Incredible power and astonishing versatility in a compact package",
+      "quantity": 1,
+      "remainingQuantity": 1,
+      "discountPercent": null,
+      "recurringRate": {
+        "recurringRateId": 102791,
+        "status": 4,
+        "currency": "EUR",
+        "rateInterval": 1,
+        "type": 1,
+        "numberOfRateSteps": 1,
+        "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/102791?$db=TEM-NO&$format=json"
+      },
+      "currentRateStep": {
+        "currency": "EUR",
+        "rate": 500.0
+      },
+      "period": {
+        "effectiveDate": "2026-02-20",
+        "expirationDate": "2026-03-08",
+        "terminationDate": null
+      },
+      "onRentDays": 17,
+      "averageRatePerDay": 500.0,
+      "checkOut": {
+        "expectedDate": "2026-02-20",
+        "checkOutStatus": 0,
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "checkIn": {
+        "expectedDate": "2026-03-08",
+        "location": {
+          "locationId": 100000,
+          "shortName": "VAT",
+          "address": {
+            "countryCode": "NO"
+          },
+          "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+        }
+      },
+      "shippingAddress": {
+        "addressId": 2,
+        "addressLink": null
+      },
+      "shippingService": {
+        "shippingServiceId": 100030,
+        "shippingServiceLink": "https://api.rambase.net/logistics/shipping-services/100030?$db=TEM-NO&$format=json"
+      },
+      "totals": {
+        "currency": "EUR",
+        "totalAmount": 8500.0,
+        "discountAmount": 0.0,
+        "totalNetAmount": 8500.0,
+        "accruedRevenue": 2000.0,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 6500.0,
+        "earnedRevenue": null,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "currency": "NOK",
+        "totalAmount": 95658.5002,
+        "accruedRevenue": 22507.5,
+        "invoicedAmount": 0.0,
+        "forecastedRevenue": 73151.0,
+        "deferredRevenue": 0.0
+      },
+      "seller": {
+        "employeeId": 11921,
+        "firstName": "Paweł",
+        "lastName": "Generalczyk",
+        "employeeLink": "https://api.rambase.net/human-resources/employees/11921?$db=TEM-NO&$format=json"
+      },
+      "calendarSummary": {
+        "quantity": {
+          "min": 1,
+          "max": 1,
+          "current": 1,
+          "numberOfChanges": 1
+        },
+        "recurringRate": {
+          "numberOfChanges": 1,
+          "currentRecurringRate": {
+            "recurringRateId": 102791,
+            "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/102791?$db=TEM-NO&$format=json"
+          }
+        },
+        "discountPercentage": {
+          "min": 0.0,
+          "max": 0.0,
+          "current": null,
+          "numberOfChanges": 1
+        },
+        "lastInvoicedDate": null,
+        "invoicedDays": 0
+      }
+    }
+  ],
+  "paging": {
+    "position": 1,
+    "page": 1,
+    "firstPage": null,
+    "previousPage": null,
+    "nextPage": null,
+    "lastPage": null
+  }
+}

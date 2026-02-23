@@ -1,0 +1,232 @@
+{
+  "rentalUnitsForItem": [
+    {
+      "rentalUnit": {
+        "rentalUnitId": 106778,
+        "status": "4",
+        "operationalStatus": 3,
+        "currentRentalContractItem": {
+          "rentalContractItemId": 14,
+          "lineNumber": 3,
+          "initialRentalContractItem": {
+            "rentalContractItemId": 14
+          },
+          "rentalContract": {
+            "rentalContractId": 100549
+          }
+        },
+        "availability": {
+          "availableFromDate": "2026-02-01",
+          "endOfLifeDate": null
+        },
+        "product": {
+          "productId": 254273,
+          "name": "John Deere 2038R",
+          "type": "P",
+          "description": "Equipped with versatile features the 2038R Compact Utility Tractor is designed to meet the diverse needs of municiple and landscape operators in all seasons",
+          "productLink": "https://api.rambase.net/product/products/254273?$db=TEM-NO&$format=json"
+        },
+        "productUnit": {
+          "productUnitId": 547966,
+          "status": 9,
+          "serialNumber": "JDR2026020101",
+          "productUnitLink": "https://api.rambase.net/product/units/547966?$db=TEM-NO&$format=json"
+        },
+        "owner": {
+          "objectType": "Customer",
+          "objectId": 102943,
+          "name": "NNM Global Enterprises",
+          "firstName": "",
+          "objectLink": "https://api.rambase.net/sales/customers/102943?$db=TEM-NO&$format=json"
+        },
+        "rentalUnitLink": "https://api.rambase.net/rental/units/106778?$db=TEM-NO&$format=json"
+      },
+      "currentCalendarDay": {
+        "isOnRent": 1,
+        "recurringRate": {
+          "recurringRateId": 103107,
+          "status": 4,
+          "currency": "EUR",
+          "rateInterval": 1,
+          "type": 1,
+          "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103107?$db=TEM-NO&$format=json"
+        },
+        "currentRateStep": {
+          "currency": "EUR",
+          "rate": 299.0
+        }
+      },
+      "rentalAssignment": {
+        "rentalAssignmentId": 171198,
+        "status": 3,
+        "isRentalUnitLocked": false,
+        "isProductLocked": true,
+        "period": {
+          "startDate": "2026-02-20",
+          "endDate": "2026-03-08"
+        },
+        "checkOut": {
+          "date": null,
+          "expectedDate": "2026-02-20",
+          "location": {
+            "locationId": 100000,
+            "shortName": "VAT",
+            "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+          }
+        },
+        "checkIn": {
+          "date": null,
+          "expectedDate": "2026-03-08",
+          "location": {
+            "locationId": 100000,
+            "shortName": "VAT",
+            "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+          },
+          "goodsReceptionItem": {
+            "goodsReceptionItemId": null,
+            "status": null,
+            "goodsReception": {
+              "goodsReceptionId": null,
+              "goodsReceptionLink": null
+            },
+            "goodsReceptionItemLink": null
+          }
+        }
+      },
+      "totals": {
+        "numberOfOnRentDays": 17,
+        "currency": "EUR",
+        "estimatedRevenue": 5083.0,
+        "forecastedRevenue": 3887.0,
+        "earnedRevenue": 1196.0,
+        "accruedRevenue": 1196.0,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "estimatedRevenue": 57203.783,
+        "forecastedRevenue": 43744.298,
+        "earnedRevenue": 13459.485,
+        "accruedRevenue": 13459.485,
+        "deferredRevenue": 0.0
+      }
+    },
+    {
+      "rentalUnit": {
+        "rentalUnitId": 106948,
+        "status": "0",
+        "operationalStatus": null,
+        "currentRentalContractItem": {
+          "rentalContractItemId": null,
+          "lineNumber": null,
+          "initialRentalContractItem": {
+            "rentalContractItemId": null
+          },
+          "rentalContract": {
+            "rentalContractId": null
+          }
+        },
+        "availability": {
+          "availableFromDate": null,
+          "endOfLifeDate": null
+        },
+        "product": {
+          "productId": 254273,
+          "name": "John Deere 2038R",
+          "type": "P",
+          "description": "Equipped with versatile features the 2038R Compact Utility Tractor is designed to meet the diverse needs of municiple and landscape operators in all seasons",
+          "productLink": "https://api.rambase.net/product/products/254273?$db=TEM-NO&$format=json"
+        },
+        "productUnit": {
+          "productUnitId": null,
+          "status": null,
+          "serialNumber": "",
+          "productUnitLink": null
+        },
+        "owner": {
+          "objectType": "",
+          "objectId": null,
+          "name": "",
+          "firstName": "",
+          "objectLink": null
+        },
+        "rentalUnitLink": "https://api.rambase.net/rental/units/106948?$db=TEM-NO&$format=json"
+      },
+      "currentCalendarDay": {
+        "isOnRent": 1,
+        "recurringRate": {
+          "recurringRateId": 103107,
+          "status": 4,
+          "currency": "EUR",
+          "rateInterval": 1,
+          "type": 1,
+          "recurringRateLink": "https://api.rambase.net/rental/recurring-rates/103107?$db=TEM-NO&$format=json"
+        },
+        "currentRateStep": {
+          "currency": "EUR",
+          "rate": 299.0
+        }
+      },
+      "rentalAssignment": {
+        "rentalAssignmentId": 171201,
+        "status": 3,
+        "isRentalUnitLocked": false,
+        "isProductLocked": true,
+        "period": {
+          "startDate": "2026-02-20",
+          "endDate": "2026-03-08"
+        },
+        "checkOut": {
+          "date": null,
+          "expectedDate": "2026-02-20",
+          "location": {
+            "locationId": 100000,
+            "shortName": "VAT",
+            "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+          }
+        },
+        "checkIn": {
+          "date": null,
+          "expectedDate": "2026-03-08",
+          "location": {
+            "locationId": 100000,
+            "shortName": "VAT",
+            "locationLink": "https://api.rambase.net/logistics/locations/100000?$db=TEM-NO&$format=json"
+          },
+          "goodsReceptionItem": {
+            "goodsReceptionItemId": null,
+            "status": null,
+            "goodsReception": {
+              "goodsReceptionId": null,
+              "goodsReceptionLink": null
+            },
+            "goodsReceptionItemLink": null
+          }
+        }
+      },
+      "totals": {
+        "numberOfOnRentDays": 17,
+        "currency": "EUR",
+        "estimatedRevenue": 5083.0,
+        "forecastedRevenue": 3887.0,
+        "earnedRevenue": 1196.0,
+        "accruedRevenue": 1196.0,
+        "deferredRevenue": 0.0
+      },
+      "totalsConverted": {
+        "estimatedRevenue": 57203.783,
+        "forecastedRevenue": 43744.298,
+        "earnedRevenue": 13459.485,
+        "accruedRevenue": 13459.485,
+        "deferredRevenue": 0.0
+      }
+    }
+  ],
+  "paging": {
+    "position": 1,
+    "page": 1,
+    "firstPage": null,
+    "previousPage": null,
+    "nextPage": null,
+    "lastPage": null
+  }
+}
