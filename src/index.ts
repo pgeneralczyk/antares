@@ -2,6 +2,7 @@ import { Elysia } from "elysia";
 
 const app = new Elysia();
 
+app.post("/query", () => Bun.file("./mocks/post-query-rct-100639.json").json());
 app.get("/rental/recurring-rates", () => Bun.file("./mocks/get-rental-recurring-rates.json").json());
 app.get("/rental/contract/100549", () => Bun.file("./mocks/get-rental-contracts-100549.json").json());
 app.get("/rental/contract/100549/invoice-periods", () => Bun.file("./mocks/get-rental-contracts-100549-invoice-periods.json").json());
