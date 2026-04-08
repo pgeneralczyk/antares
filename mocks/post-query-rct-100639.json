@@ -1,100 +1,107 @@
 {
-    "components": [
+  "components": [
+    {
+      "type": "header",
+      "columns": [
         {
-            "type": "header",
-            "columns": [
-                {
-                    "data": {
-                        "label": "Rental contractId",
-                        "value": "100639"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Customer",
-                        "value": "102226 - Atlantic Prime Industries"
-                    },
-                    "type": "field"
-                }
-            ]
+          "data": {
+            "label": "Rental contractId",
+            "value": "100639"
+          },
+          "type": "field",
+          "action": {
+            "type": "link",
+            "to": "/rental-contracts/100639"
+          }
         },
         {
-            "type": "row",
-            "columns": [
-                {
-                    "data": {
-                        "label": "Invoice frequency",
-                        "value": "3 - Monthly"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Effective date",
-                        "value": "12 Aug 2024"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Expiration date",
-                        "value": "12 Aug 2024"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Invoice address line 1",
-                        "value": "34 Dean Street"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Invoice address line 2",
-                        "value": "NE11PG Newcastle upon Tyne [GB]"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Shipping address line 1",
-                        "value": "34 Dean Street"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Shipping address line 2",
-                        "value": "NE11PG Newcastle upon Tyne [GB]"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Responsible",
-                        "value": ""
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "Assignee",
-                        "value": "11921 - Generalczyk"
-                    },
-                    "type": "field"
-                },
-                {
-                    "data": {
-                        "label": "AccountManager",
-                        "value": ""
-                    },
-                    "type": "field"
-                }
-            ]
+          "data": {
+            "label": "Customer",
+            "value": "102226 - Atlantic Prime Industries"
+          },
+          "type": "field",
+          "span": 2
         }
-    ],
-    "layout": "",
-    "type": ""
+      ]
+    },
+    {
+      "type": "row",
+      "columns": [
+        {
+          "data": {
+            "label": "Invoice frequency",
+            "value": "3 - Monthly"
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "Effective date",
+            "value": "12 Aug 2024"
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "Expiration date",
+            "value": "31 Aug 2026"
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "Invoice address line 1",
+            "value": "34 Dean Street"
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "Invoice address line 2",
+            "value": "NE11PG Newcastle upon Tyne [GB]"
+          },
+          "type": "field",
+          "span": 2
+        },
+        {
+          "data": {
+            "label": "Shipping address line 1",
+            "value": "34 Dean Street"
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "Shipping address line 2",
+            "value": "NE11PG Newcastle upon Tyne [GB]"
+          },
+          "type": "field",
+          "span": 2
+        },
+        {
+          "data": {
+            "label": "Responsible",
+            "value": ""
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "Assignee",
+            "value": "11921 - Generalczyk"
+          },
+          "type": "field"
+        },
+        {
+          "data": {
+            "label": "AccountManager",
+            "value": ""
+          },
+          "type": "field"
+        }
+      ]
+    }
+  ],
+  "layout": "default layout",
+  "type": "Hello world"
 }
