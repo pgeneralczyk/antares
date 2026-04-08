@@ -4,7 +4,7 @@ import { cors } from "@elysiajs/cors";
 const app = new Elysia()
   .use(
     cors({
-      origin: "http://127.0.0.1:4321",
+      origin: "*",
       methods: ["GET", "POST", "OPTIONS"],
       allowedHeaders: ["Content-Type"],
     })
