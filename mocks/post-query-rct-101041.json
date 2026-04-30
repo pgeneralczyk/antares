@@ -1,0 +1,573 @@
+{
+    "components": [
+        {
+            "type": "header",
+            "title": "",
+            "items": [
+                {
+                    "data": {
+                        "label": "Rental contractId",
+                        "value": "101041"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {
+                        "type": "link",
+                        "to": "/json-viewer?src=rental/contracts/101041?$showDomainDescriptions=true&$expand=DefaultCheckOutLocation,DefaultCheckInLocation,TotalsConverted,Name"
+                    }
+                },
+                {
+                    "data": {
+                        "label": "Customer",
+                        "value": "102943 · NovaCore Enterprises"
+                    },
+                    "type": "field",
+                    "span": 2,
+                    "action": {}
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "title": "",
+            "items": [
+                {
+                    "data": {
+                        "label": "Currency",
+                        "value": "EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Effective date",
+                        "value": "15 Jan 2025"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Expiration date",
+                        "value": "30 Jun 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoice address line 1",
+                        "value": "Margaretenstrasse 98"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoice address line 2",
+                        "value": "A-1050 Wien [AT]"
+                    },
+                    "type": "field",
+                    "span": 2,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Shipping address line 1",
+                        "value": "Park 34"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Shipping address line 2",
+                        "value": "OX11 7WB Oxford [GB]"
+                    },
+                    "type": "field",
+                    "span": 2,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Responsible",
+                        "value": "11921 · Generalczyk"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Assignee",
+                        "value": "11921 · Generalczyk"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Account manager",
+                        "value": "11921 · Generalczyk"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoice frequency",
+                        "value": "3 · Monthly"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Base date",
+                        "value": "1 Jan 2025"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Advance invoicing",
+                        "value": "false"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Default check-out location",
+                        "value": "100000 · VAT"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Default check-in location",
+                        "value": "100000 · VAT"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Shipment service",
+                        "value": "100030 · TNT EXPRESS DOCS"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "title": "Items",
+            "items": [
+                {
+                    "data": {
+                        "label": "Line no · Item Id · Init Id",
+                        "value": "1 · 21 · 5"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Status",
+                        "value": "O4 · Active (Order)"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Product",
+                        "value": "253936 · 5G ODU-IDU KIT NE211 & HX510"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Line no · Item Id · Init Id",
+                        "value": "2 · 19 · 6"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Status",
+                        "value": "O3 · Future (Order)"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Product",
+                        "value": "127009 · Samsung Odyssey G5 LS27CG552EUXEN - 27"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Line no · Item Id · Init Id",
+                        "value": "3 · 22 · 7"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Status",
+                        "value": "O4 · Active (Order)"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Product",
+                        "value": "254186 · Mikrus 4.1"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "title": "Invoice periods",
+            "items": [
+                {
+                    "data": {
+                        "label": "Invoice period id",
+                        "value": "3"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Status",
+                        "value": "3 · Future"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Planned invoice date",
+                        "value": "1 Jun 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Start date",
+                        "value": "1 May 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "End date",
+                        "value": "31 May 2026"
+                    },
+                    "type": "field",
+                    "span": 2,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Amount",
+                        "value": "3859.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Discount amount ",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Net amount",
+                        "value": "3859.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Ready for invoicing",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Proforma amount",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoiced amount",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoice period id",
+                        "value": "4"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Status",
+                        "value": "3 · Future"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Planned invoice date",
+                        "value": "1 Jul 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Start date",
+                        "value": "1 Jun 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "End date",
+                        "value": "30 Jun 2026"
+                    },
+                    "type": "field",
+                    "span": 2,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Amount",
+                        "value": "3729.60 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Discount amount ",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Net amount",
+                        "value": "3729.60 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Ready for invoicing",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Proforma amount",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoiced amount",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoice period id",
+                        "value": "5"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Status",
+                        "value": "4 · Current "
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Planned invoice date",
+                        "value": "1 May 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Start date",
+                        "value": "27 Apr 2026"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "End date",
+                        "value": "30 Apr 2026"
+                    },
+                    "type": "field",
+                    "span": 2,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Amount",
+                        "value": "498.08 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Discount amount ",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Net amount",
+                        "value": "498.08 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Ready for invoicing",
+                        "value": "378.08 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Proforma amount",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                },
+                {
+                    "data": {
+                        "label": "Invoiced amount",
+                        "value": "0.00 EUR"
+                    },
+                    "type": "field",
+                    "span": 1,
+                    "action": {}
+                }
+            ]
+        }
+    ],
+    "layout": "",
+    "type": ""
+}
